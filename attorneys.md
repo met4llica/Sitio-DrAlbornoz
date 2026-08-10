@@ -1,21 +1,12 @@
 ---
 layout: default
-title: Attorneys
+title: Abogado
 ---
 
-# Attorneys
-<div class="card-deck">
-	{% for attorney in site.data.attorneys %}
-		  <div class="card my-3" style="min-width: 30%;">
-		    	<img src="assets/images/{{ attorney.picture }}" class="card-img" alt="...">
-		  		<div class="card-body">
-		  			<h5 class="card-title">{{ attorney.name }}</h5>
-		  			<p class="card-text">{{ attorney.bio }}</p>
-		  		</div>
-				<ul class="list-group list-group-flush">
-				    <li class="list-group-item">Email: {{ attorney.email }}</li>
-				    <li class="list-group-item">Call: {{ attorney.phone }}</li>
-				</ul>
-		  </div>
-	{% endfor %}
-</div>	
+# Dr. Albornoz Diogo
+
+Abogado egresado de la Universidad de Ciencias Empresariales y Sociales (UCES). Asesoramiento jurídico estratégico, responsable y personalizado en Río Grande, Tierra del Fuego.
+
+Acompaño a mis clientes en la toma de decisiones legales relevantes, con un enfoque profesional, claro y orientado a resultados.
+
+Cada caso es analizado de manera exhaustiva, con criterio jurídico preciso y un compromiso absoluto con la protección de los derechos e intereses de quienes confían en mi trabajo.

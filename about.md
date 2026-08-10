@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Nosotros
 ---
 
 # Dr. Albornoz Diogo - Estudio Jurídico
@@ -14,15 +14,3 @@ Cada caso es analizado de manera exhaustiva, con criterio jurídico preciso y un
 ## Nuestro compromiso
 
 Cada caso es único. Nuestra estrategia también.
-
-## Áreas de práctica
-
-- Derecho Civil y Comercial
-- Derecho de Familia
-- Derecho Laboral
-- Contratos
-- Derecho Previsional
-
-## Contacto
-
-Para consultas y asesoramiento, comunicarse a través del formulario de contacto o por los medios disponibles en la sección de contacto.
