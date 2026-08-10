@@ -1,35 +1,35 @@
-# Welcome to your law firm website. Change the values in this file to configure your site. 
+# Sitio web Dr. Albornoz Diogo
 
 # The name of your law firm
-title: Free Firm Site LLP
+title: Dr. Albornoz Diogo - Abogado
 
 # The email address of your law firm. Messages sent using the contact form will arrive at this address.
-email: "pieter@legal.io"
+email: "dr.diogoalbornoz@gmail.com"
 
 # The phone number of your law firm. This will be displayed on the website.
-phone: "+1 650 391 0000"
+phone: "+54 2964 548650"
 
-# The description of your website. This will be displayed in the footer of the website
-description: >- # this means to ignore newlines until "baseurl:"
-  Law Firm is the leading full-service firm in the San Francisco Bay Area. No matter your issue, we have your covered.
+# The description of your website.
+description: >-
+  Estudio jurídico especializado en derecho civil, comercial, familia, laboral y previsional.
+  Asesoramiento jurídico estratégico, responsable y personalizado.
 
-# The tagline of your website. This will be displayed on the home page of your website
-tagline: Free, Flexible, Effective
+# The tagline of your website.
+tagline: Asesoramiento jurídico estratégico y personalizado
 
-# The address of your firm. This will be displayed in the footer of your website
-address_1: "1535 Mission St."
-address_2: "San Francisco, CA, 94103"
+# The address of your firm.
+address_1: "Río Grande, Tierra del Fuego, Argentina"
 
-# It would not be a legal website without a disclaimer! This will be displayed in the footer of your website
-disclaimer: "Attorney advertisement. This information is not intended to create, and receipt of it does not constitute an attorney-client relationship. Internet subscribers and online readers should not act upon this information without seeking professional counsel. Do not send us information that is confidential until you speak with one of our attorneys and obtain authorization to send that information to us."
+# Disclaimer
+disclaimer: "La información contenida en este sitio es de carácter informativo y no constituye asesoramiento legal. No se establece relación abogado-cliente hasta que se concrete una consulta formal."
 
-# The secondary tagline of your website. This will be displayed on the home page of your website, under the primary tagline
-secondary_tagline: A free legal website template, yours to use and customize.
+# Secondary tagline
+secondary_tagline: Cada caso es único. Nuestra estrategia también.
 
-# The url of the main image of your website. This image is displayed front and center on the home page. 
-background_image: https://images.unsplash.com/photo-1422226256160-9b266e308ea6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2853&q=80
+# Background image - reemplazar por imagen del estudio o profesional
+background_image: https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=2852&q=80
 
-repository: "nicolas-van/bootstrap-4-github-pages"
+repository: "digitallawyer/freefirmsite"
 
 # Build settings
 plugins:
@@ -39,12 +39,6 @@ plugins:
 collections:
   - posts
 
-#baseurl: "" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
 exclude:
   - Gemfile
   - Gemfile.lock

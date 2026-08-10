@@ -1,14 +1,14 @@
-- name: Corporate
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus non elit ac tempor. Aliquam vitae odio a sapien tempus vehicula in at sapien. Sed rutrum tincidunt massa, quis pretium sem interdum quis. Suspendisse nec arcu dolor. Proin convallis tempus ligula, congue placerat neque auctor at. Vivamus aliquam massa in luctus cursus. In et mauris nec nunc varius dignissim ac vel diam.
+- name: Derecho Civil y Comercial
+  description: Asesoramiento integral en derecho civil y comercial. Responsabilidad civil, daño y perjuicios, reclamos patrimoniales y contratos civiles y comerciales.
 
-- name: Litigation
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus non elit ac tempor. Aliquam vitae odio a sapien tempus vehicula in at sapien. Sed rutrum tincidunt massa, quis pretium sem interdum quis. Suspendisse nec arcu dolor. Proin convallis tempus ligula, congue placerat neque auctor at. Vivamus aliquam massa in luctus cursus. In et mauris nec nunc varius dignissim ac vel diam.
+- name: Derecho de Familia
+  description: Acompañamiento legal en asuntos familiares. Divorcios, régimen de alimentos, cuotas alimentarias, acuerdos familiares y resoluciones judiciales.
 
-- name: Intellectual Property
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus non elit ac tempor. Aliquam vitae odio a sapien tempus vehicula in at sapien. Sed rutrum tincidunt massa, quis pretium sem interdum quis. Suspendisse nec arcu dolor. Proin convallis tempus ligula, congue placerat neque auctor at. Vivamus aliquam massa in luctus cursus. In et mauris nec nunc varius dignissim ac vel diam.
+- name: Derecho Laboral
+  description: Defensa de los derechos laborales. Despidos y conflictos laborales, representación en reclamos, negociaciones laborales y asesoramiento a trabajadores y empresas.
 
-- name: Commercial
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus non elit ac tempor. Aliquam vitae odio a sapien tempus vehicula in at sapien. Sed rutrum tincidunt massa, quis pretium sem interdum quis. Suspendisse nec arcu dolor. Proin convallis tempus ligula, congue placerat neque auctor at. Vivamus aliquam massa in luctus cursus. In et mauris nec nunc varius dignissim ac vel diam.
+- name: Contratos
+  description: Elaboración de contratos personalizados, revisión legal preventiva y negociación contractual. Análisis previo de acuerdos para minimizar riesgos legales.
 
-- name: Privacy
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus non elit ac tempor. Aliquam vitae odio a sapien tempus vehicula in at sapien. Sed rutrum tincidunt massa, quis pretium sem interdum quis. Suspendisse nec arcu dolor. Proin convallis tempus ligula, congue placerat neque auctor at. Vivamus aliquam massa in luctus cursus. In et mauris nec nunc varius dignissim ac vel diam.
+- name: Derecho Previsional
+  description: Asesoramiento en jubilaciones y pensiones, reajustes y reclamos previsionales, reconocimiento de aportes y gestión de beneficios previsionales.
