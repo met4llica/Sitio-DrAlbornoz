@@ -27,13 +27,13 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="/attorneys" class="text-info">Abogado</a>
+            <a href="{{ '/attorneys' | relative_url }}" class="text-info">Abogado</a>
           </li>
           <li>
-            <a href="/services" class="text-info">Servicios</a>
+            <a href="{{ '/services' | relative_url }}" class="text-info">Servicios</a>
           </li>
           <li>
-            <a href="/about" class="text-info">Nosotros</a>
+            <a href="{{ '/about' | relative_url }}" class="text-info">Nosotros</a>
           </li>
         </ul>
 
@@ -48,7 +48,7 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="/contact" class="text-info">Contacto</a>
+            <a href="{{ '/contact' | relative_url }}" class="text-info">Contacto</a>
           </li>
           <li>
             <p class="">{{site.address_1}}<br>{{site.address_2}}</p>
