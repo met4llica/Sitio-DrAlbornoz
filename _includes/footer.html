@@ -1,75 +1,60 @@
 <!-- Footer -->
-<footer class="page-footer font-small blue pt-4 bg-light">
+<footer class="site-footer">
 
-  <!-- Footer Links -->
   <div class="container text-center text-md-left py-4">
 
-    <!-- Grid row -->
     <div class="row">
 
-      <!-- Grid column -->
       <div class="col-md-6 mt-md-0 mt-3">
 
-        <!-- Content -->
         <h5 class="text-uppercase">{{ site.title | escape }}</h5>
-        <p class="">{{- site.description | escape -}}</p>
+        <p>{{- site.description | escape -}}</p>
 
       </div>
-      <!-- Grid column -->
 
       <hr class="clearfix w-100 d-md-none pb-3">
 
-      <!-- Grid column -->
       <div class="col-md-3 mb-md-0 mb-3">
 
-        <!-- Links -->
         <h5 class="text-uppercase">Navegación</h5>
 
         <ul class="list-unstyled">
           <li>
-            <a href="{{ '/attorneys' | relative_url }}" class="text-info">Abogado</a>
+            <a href="{{ '/attorneys' | relative_url }}">Abogado</a>
           </li>
           <li>
-            <a href="{{ '/services' | relative_url }}" class="text-info">Servicios</a>
+            <a href="{{ '/services' | relative_url }}">Servicios</a>
           </li>
           <li>
-            <a href="{{ '/about' | relative_url }}" class="text-info">Nosotros</a>
+            <a href="{{ '/about' | relative_url }}">Nosotros</a>
           </li>
         </ul>
 
       </div>
-      <!-- Grid column -->
 
-      <!-- Grid column -->
       <div class="col-md-3 mb-md-0 mb-3">
 
-        <!-- Links -->
         <h5 class="text-uppercase">Contacto</h5>
 
         <ul class="list-unstyled">
           <li>
-            <a href="{{ '/contact' | relative_url }}" class="text-info">Contacto</a>
+            <a href="{{ '/contact' | relative_url }}">Contacto</a>
           </li>
           <li>
-            <p class="">{{site.address_1}}<br>{{site.address_2}}</p>
+            <p>{{site.address_1}}</p>
           </li>
         </ul>
 
       </div>
-      <!-- Grid column -->
 
     </div>
-    <!-- Grid row -->
 
   </div>
-  <!-- Footer Links -->
 
-  <!-- Copyright -->
   <hr>
-  <div class="container footer-copyright text-secondary py-4">© {{ 'now' | date: "%Y" }}
-  Derechos reservados: {{site.title}}. {{site.disclaimer}}
+  <div class="container footer-copyright py-4">
+    <small>© {{ 'now' | date: "%Y" }} Derechos reservados: {{site.title}}. {{site.disclaimer}}</small>
   </div>
-  <!-- Copyright -->
 
 </footer>
 <!-- Footer -->
