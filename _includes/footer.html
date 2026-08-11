@@ -1,60 +1,42 @@
 <!-- Footer -->
-<footer class="site-footer">
-
-  <div class="container text-center text-md-left py-4">
-
+<footer style="background-color: #0A2340; color: #C3C7CC;">
+  <div class="container py-5">
     <div class="row">
-
-      <div class="col-md-6 mt-md-0 mt-3">
-
-        <h5 class="text-uppercase">{{ site.title | escape }}</h5>
-        <p>{{- site.description | escape -}}</p>
-
+      <div class="col-md-3 mb-4">
+        <h5 class="text-white font-weight-bold">Dr. Albornoz Diogo</h5>
+        <p class="mb-0">Estudio jurídico en Río Grande, Tierra del Fuego. Asesoramiento jurídico estratégico, responsable y personalizado.</p>
       </div>
-
-      <hr class="clearfix w-100 d-md-none pb-3">
-
-      <div class="col-md-3 mb-md-0 mb-3">
-
-        <h5 class="text-uppercase">Navegación</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="{{ '/attorneys' | relative_url }}">Abogado</a>
-          </li>
-          <li>
-            <a href="{{ '/services' | relative_url }}">Servicios</a>
-          </li>
-          <li>
-            <a href="{{ '/about' | relative_url }}">Nosotros</a>
-          </li>
+      <div class="col-md-3 mb-4">
+        <h5 class="text-white font-weight-bold">Contacto</h5>
+        <ul class="list-unstyled mb-0">
+          <li>Teléfono / WhatsApp: +54 2964 548650</li>
+          <li>Email: dr.diogoalbornoz@gmail.com</li>
+          <li>Instagram: @dr.diogoalbornoz</li>
+          <li>Río Grande, Tierra del Fuego, Argentina</li>
         </ul>
-
       </div>
-
-      <div class="col-md-3 mb-md-0 mb-3">
-
-        <h5 class="text-uppercase">Contacto</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="{{ '/contact' | relative_url }}">Contacto</a>
-          </li>
-          <li>
-            <p>{{site.address_1}}</p>
-          </li>
+      <div class="col-md-3 mb-4">
+        <h5 class="text-white font-weight-bold">Áreas principales</h5>
+        <ul class="list-unstyled mb-0">
+          <li><a href="{{ "/#servicios" | relative_url }}" class="text-white">Derecho Civil y Comercial</a></li>
+          <li><a href="{{ "/#servicios" | relative_url }}" class="text-white">Derecho de Familia</a></li>
+          <li><a href="{{ "/#servicios" | relative_url }}" class="text-white">Derecho Laboral</a></li>
+          <li><a href="{{ "/#servicios" | relative_url }}" class="text-white">Amparos de Salud</a></li>
         </ul>
-
       </div>
-
+      <div class="col-md-3 mb-4">
+        <h5 class="text-white font-weight-bold">Navegación</h5>
+        <ul class="list-unstyled mb-0">
+          <li><a href="{{ "/#quien-soy" | relative_url }}" class="text-white">Quién soy</a></li>
+          <li><a href="{{ "/#servicios" | relative_url }}" class="text-white">Servicios</a></li>
+          <li><a href="{{ "/#por-que-elegirnos" | relative_url }}" class="text-white">Por qué elegirnos</a></li>
+          <li><a href="{{ "/#contacto" | relative_url }}" class="text-white">Contacto</a></li>
+        </ul>
+      </div>
     </div>
-
   </div>
-
-  <hr>
-  <div class="container footer-copyright py-4">
+  <div class="text-center py-3" style="background-color: #071A2D; border-top: 1px solid #C3C7CC;">
     <small>© {{ 'now' | date: "%Y" }} Derechos reservados: {{site.title}}. {{site.disclaimer}}</small>
   </div>
-
 </footer>
 <!-- Footer -->

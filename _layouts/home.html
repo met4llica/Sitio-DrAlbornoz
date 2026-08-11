@@ -1,42 +1,307 @@
 ---
 layout: default
+title: Inicio
+permalink: /
 ---
 
-<div>
+<!-- Hero -->
+<header class="masthead" style="background-color: #071A2D; background-image: linear-gradient(rgba(7,26,45,0.85), rgba(7,26,45,0.85)), url('{{site.background_image}}'); background-size: cover; height: 95vh;">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-12 text-center">
+        <p class="text-white text-uppercase tracking-wide mb-2">Estudio jurídico</p>
+        <h1 class="text-white display-3 font-weight-bold">Dr. Albornoz Diogo</h1>
+        <p class="lead text-white mt-3">{{site.secondary_tagline}}</p>
+        <div class="mt-4">
+          <a class="btn btn-lg mr-2 mb-2" href="https://wa.me/5492964548650" target="_blank" rel="noopener" style="background-color: #D4AF37; color: #071A2D; font-weight: 600;">Solicitar asesoría por WhatsApp</a>
+          <a class="btn btn-outline-light btn-lg mb-2" href="#contacto">Contacto</a>
+        </div>
+        <div class="row mt-5 justify-content-center text-white">
+          <div class="col-md-4">
+            <h3 class="font-weight-bold" style="color: #D4AF37;">+15 años</h3>
+            <p class="mb-0">De experiencia</p>
+          </div>
+          <div class="col-md-4">
+            <h3 class="font-weight-bold" style="color: #D4AF37;">+2.000</h3>
+            <p class="mb-0">Casos atendidos</p>
+          </div>
+          <div class="col-md-4">
+            <h3 class="font-weight-bold" style="color: #D4AF37;">100%</h3>
+            <p class="mb-0">Compromiso</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 
-  {%- if page.title -%}
-  <header>
-    <h1>{{ page.title }}</h1>
-  </header>
-  {%- endif -%}
+<!-- Quién soy -->
+<section id="quien-soy" class="py-5">
+  <div class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <h2 class="font-weight-bold mb-3" style="color: #071A2D;">Quién soy</h2>
+        <p class="text-muted">Soy Diogo Albornoz, abogado egresado de la Universidad de Ciencias Empresariales y Sociales (UCES). Brindo asesoramiento jurídico estratégico, responsable y personalizado en Río Grande, Tierra del Fuego.</p>
+        <p class="text-muted">Acompaño a mis clientes en la toma de decisiones legales relevantes, con un enfoque profesional, claro y orientado a resultados.</p>
+        <p class="text-muted">Cada caso es analizado de manera exhaustiva, con criterio jurídico preciso y un compromiso absoluto con la protección de los derechos e intereses de quienes confían en mi trabajo.</p>
+      </div>
+      <div class="col-lg-6 mt-4 mt-lg-0">
+        <div class="p-4" style="background-color: #F5F7FA; border-left: 4px solid #D4AF37;">
+          <h4 class="font-weight-bold mb-3" style="color: #071A2D;">Áreas de práctica</h4>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2">• Derecho Civil y Comercial</li>
+            <li class="mb-2">• Derecho de Familia</li>
+            <li class="mb-2">• Derecho Laboral</li>
+            <li class="mb-2">• Contratos</li>
+            <li class="mb-2">• Derecho Previsional</li>
+            <li class="mb-2">• Amparos de Salud</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <section>
-      
-    {{ content }}
-  </section>
+<!-- Servicios -->
+<section id="servicios" class="py-5" style="background-color: #FFFFFF;">
+  <div class="container py-5">
+    <div class="text-center mb-5">
+      <h2 class="font-weight-bold" style="color: #071A2D;">Soluciones jurídicas integrales</h2>
+      <p class="text-muted">Asesoramiento profesional en cada área del derecho.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <h5 class="font-weight-bold" style="color: #071A2D;">Derecho Civil y Comercial</h5>
+            <p class="card-text text-muted">Responsabilidad civil, daño y perjuicios, reclamos patrimoniales y contratos.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <h5 class="font-weight-bold" style="color: #071A2D;">Derecho de Familia</h5>
+            <p class="card-text text-muted">Divorcios, régimen de alimentos, cuotas alimentarias, acuerdos y sucesiones.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <h5 class="font-weight-bold" style="color: #071A2D;">Derecho Laboral</h5>
+            <p class="card-text text-muted">Despidos, conflictos laborales, representación en reclamos y negociaciones.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <h5 class="font-weight-bold" style="color: #071A2D;">Contratos</h5>
+            <p class="card-text text-muted">Elaboración, revisión preventiva y negociación contractual.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <h5 class="font-weight-bold" style="color: #071A2D;">Derecho Previsional</h5>
+            <p class="card-text text-muted">Jubilaciones, pensiones, reajustes y gestión de beneficios.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <h5 class="font-weight-bold" style="color: #071A2D;">Amparos de Salud</h5>
+            <p class="card-text text-muted">Medicamentos, CUD, prótesis, internaciones y traslados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  {%- if site.posts.size > 0 -%}
-    <p class="h4">{{ page.list_title | default: "Posts" }}</p>
-    <ul class="list-unstyled">
-      {%- for post in site.posts -%}
-      <li>
-        <span class="text-muted">
-          {%- assign date_format = "%b %-d, %Y" -%}
-          {{ post.date | date: date_format }}
-        </span>
-        <p class="h5">
-          <a href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </p>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+<!-- Por qué elegirnos -->
+<section id="por-que-elegirnos" class="py-5" style="background-color: #F5F7FA;">
+  <div class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-lg-5 mb-4 mb-lg-0">
+        <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Estudio jurídico" class="img-fluid rounded shadow-sm" style="max-height: 320px;">
+      </div>
+      <div class="col-lg-7 pl-lg-5">
+        <h2 class="font-weight-bold mb-4" style="color: #071A2D;">Por qué elegirnos</h2>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <h5 class="font-weight-bold" style="color: #D4AF37;">Experiencia</h5>
+            <p class="text-muted mb-0">Años de práctica jurídica en Tierra del Fuego.</p>
+          </div>
+          <div class="col-md-6 mb-3">
+            <h5 class="font-weight-bold" style="color: #D4AF37;">Atención personalizada</h5>
+            <p class="text-muted mb-0">Cada caso es único. Nuestra estrategia también.</p>
+          </div>
+          <div class="col-md-6 mb-3">
+            <h5 class="font-weight-bold" style="color: #D4AF37;">Transparencia</h5>
+            <p class="text-muted mb-0">Claridad en costos, tiempos y posibilidades.</p>
+          </div>
+          <div class="col-md-6 mb-3">
+            <h5 class="font-weight-bold" style="color: #D4AF37;">Compromiso</h5>
+            <p class="text-muted mb-0">Defensa activa de tus derechos e intereses.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+<!-- Proceso -->
+<section id="proceso" class="py-5" style="background-color: #071A2D; color: #FFFFFF;">
+  <div class="container py-5">
+    <div class="text-center mb-5">
+      <h2 class="font-weight-bold text-white">Un proceso claro y estratégico</h2>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-3 mb-4">
+        <div class="mb-3">
+          <span class="d-inline-flex align-items-center justify-content-center rounded-circle" style="width: 64px; height: 64px; background-color: #D4AF37; color: #071A2D; font-weight: bold; font-size: 1.5rem;">01</span>
+        </div>
+        <h5 class="font-weight-bold">Contáctenos</h5>
+        <p class="text-white-50">Consultanos por WhatsApp o formulario.</p>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="mb-3">
+          <span class="d-inline-flex align-items-center justify-content-center rounded-circle" style="width: 64px; height: 64px; background-color: #D4AF37; color: #071A2D; font-weight: bold; font-size: 1.5rem;">02</span>
+        </div>
+        <h5 class="font-weight-bold">Analizamos su caso</h5>
+        <p class="text-white-50">Revisamos la documentación y viabilidad.</p>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="mb-3">
+          <span class="d-inline-flex align-items-center justify-content-center rounded-circle" style="width: 64px; height: 64px; background-color: #D4AF37; color: #071A2D; font-weight: bold; font-size: 1.5rem;">03</span>
+        </div>
+        <h5 class="font-weight-bold">Diseñamos una estrategia</h5>
+        <p class="text-white-50">Definimos el camino jurídico más conveniente.</p>
+      </div>
+      <div class="col-md-3 mb-4">
+        <div class="mb-3">
+          <span class="d-inline-flex align-items-center justify-content-center rounded-circle" style="width: 64px; height: 64px; background-color: #D4AF37; color: #071A2D; font-weight: bold; font-size: 1.5rem;">04</span>
+        </div>
+        <h5 class="font-weight-bold">Lo acompañamos hasta la solución</h5>
+        <p class="text-white-50">Seguimiento constante y comunicación clara.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-</div>
+<!-- Testimonios -->
+<section id="testimonios" class="py-5" style="background-color: #FFFFFF;">
+  <div class="container py-5">
+    <div class="text-center mb-5">
+      <h2 class="font-weight-bold" style="color: #071A2D;">Lo que dicen nuestros clientes</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <p class="card-text text-muted">“Acompañamiento serio y claro en todo el proceso. Muy conforme con el resultado.”</p>
+            <div class="mt-3" style="color: #D4AF37;">★★★★★</div>
+            <p class="mb-0 font-weight-bold mt-2">Cliente</p>
+            <p class="mb-0 text-muted">Río Grande</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <p class="card-text text-muted">“Profesionalismo y trato humano. Lo recomiendo sin dudas.”</p>
+            <div class="mt-3" style="color: #D4AF37;">★★★★★</div>
+            <p class="mb-0 font-weight-bold mt-2">Cliente</p>
+            <p class="mb-0 text-muted">Tierra del Fuego</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <p class="card-text text-muted">“Resolvió mi caso en tiempo y forma. Excelente atención.”</p>
+            <div class="mt-3" style="color: #D4AF37;">★★★★★</div>
+            <p class="mb-0 font-weight-bold mt-2">Cliente</p>
+            <p class="mb-0 text-muted">Río Grande</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="py-5" style="background-color: #F5F7FA;">
+  <div class="container py-5">
+    <div class="text-center mb-5">
+      <h2 class="font-weight-bold" style="color: #071A2D;">Resolvemos sus dudas</h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="accordion" id="faqAccordion">
+          <div class="card mb-2 border-0 shadow-sm">
+            <div class="card-header bg-white border-0" id="faq1">
+              <h5 class="mb-0">
+                <button class="btn btn-link text-left font-weight-bold" style="color: #071A2D; text-decoration: none;" type="button" data-toggle="collapse" data-target="#collapseFaq1" aria-expanded="true" aria-controls="collapseFaq1">
+                  ¿Dónde se encuentra el estudio?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFaq1" class="collapse show" aria-labelledby="faq1" data-parent="#faqAccordion">
+              <div class="card-body text-muted">Río Grande, Tierra del Fuego, Argentina.</div>
+            </div>
+          </div>
+          <div class="card mb-2 border-0 shadow-sm">
+            <div class="card-header bg-white border-0" id="faq2">
+              <h5 class="mb-0">
+                <button class="btn btn-link text-left font-weight-bold collapsed" style="color: #071A2D; text-decoration: none;" type="button" data-toggle="collapse" data-target="#collapseFaq2" aria-expanded="false" aria-controls="collapseFaq2">
+                  ¿Qué tipos de casos atiende?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFaq2" class="collapse" aria-labelledby="faq2" data-parent="#faqAccordion">
+              <div class="card-body text-muted">Derecho civil, familia, laboral, previsional, contratos y amparos de salud.</div>
+            </div>
+          </div>
+          <div class="card mb-2 border-0 shadow-sm">
+            <div class="card-header bg-white border-0" id="faq3">
+              <h5 class="mb-0">
+                <button class="btn btn-link text-left font-weight-bold collapsed" style="color: #071A2D; text-decoration: none;" type="button" data-toggle="collapse" data-target="#collapseFaq3" aria-expanded="false" aria-controls="collapseFaq3">
+                  ¿Cuál es el tiempo de respuesta?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFaq3" class="collapse" aria-labelledby="faq3" data-parent="#faqAccordion">
+              <div class="card-body text-muted">Buscamos responder en menos de 24 horas hábiles.</div>
+            </div>
+          </div>
+          <div class="card mb-2 border-0 shadow-sm">
+            <div class="card-header bg-white border-0" id="faq4">
+              <h5 class="mb-0">
+                <button class="btn btn-link text-left font-weight-bold collapsed" style="color: #071A2D; text-decoration: none;" type="button" data-toggle="collapse" data-target="#collapseFaq4" aria-expanded="false" aria-controls="collapseFaq4">
+                  ¿Cómo puedo solicitar una consulta?
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFaq4" class="collapse" aria-labelledby="faq4" data-parent="#faqAccordion">
+              <div class="card-body text-muted">Por WhatsApp al 2964-548650 o completando el formulario de contacto.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Final -->
+<section id="contacto" class="py-5" style="background-color: #071A2D; color: #FFFFFF;">
+  <div class="container py-5 text-center">
+    <h2 class="font-weight-bold text-white mb-3">Obtenga hoy mismo orientación jurídica profesional</h2>
+    <p class="text-white-50 mb-4">Respondemos en menos de 24 horas hábiles.</p>
+    <a class="btn btn-lg mb-2" href="https://wa.me/5492964548650" target="_blank" rel="noopener" style="background-color: #D4AF37; color: #071A2D; font-weight: 600;">Solicitar asesoría ahora</a>
+  </div>
+</section>

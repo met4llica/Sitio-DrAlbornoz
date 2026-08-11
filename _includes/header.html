@@ -1,28 +1,31 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #071A2D; border-bottom: 1px solid #C3C7CC;">
-    <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="navbar-brand font-weight-bold" rel="author" href="{{ "/" | relative_url }}">Dr. Albornoz Diogo - Abogado</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link {% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">Inicio</a>
+          <a class="nav-link" href="{{ "/#quien-soy" | relative_url }}">Quién soy</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {% if page.title == 'Abogado' %}active{% endif %}" href="{{ '/attorneys' | relative_url }}">Abogado</a>
+          <a class="nav-link" href="{{ "/#servicios" | relative_url }}">Servicios</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {% if page.title == 'Servicios' %}active{% endif %}" href="{{ '/services' | relative_url }}">Servicios</a>
+          <a class="nav-link" href="{{ "/#por-que-elegirnos" | relative_url }}">Por qué elegirnos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {% if page.title == 'Nosotros' %}active{% endif %}" href="{{ '/about' | relative_url }}">Nosotros</a>
+          <a class="nav-link" href="{{ "/#testimonios" | relative_url }}">Testimonios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ "/#faq" | relative_url }}">FAQ</a>
         </li>
       </ul>
 
-    <form class="form-inline my-2 ml-2 my-lg-0">
-      <a class="btn btn-darker my-2 my-sm-0" href="{{ '/contact' | relative_url }}">Contacto</a>
-    </form>
+      <form class="form-inline my-2 ml-2 my-lg-0">
+        <a class="btn btn-lg my-2 my-sm-0" href="https://wa.me/5492964548650" target="_blank" rel="noopener" style="background-color: #D4AF37; color: #071A2D; font-weight: 600;">Asesoría por WhatsApp</a>
+      </form>
     </div>
 </nav>
