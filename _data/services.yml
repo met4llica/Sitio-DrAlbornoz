@@ -1,17 +1,24 @@
 - name: Derecho Civil y Comercial
-  description: Asesoramiento integral en derecho civil y comercial. Responsabilidad civil, daño y perjuicios, reclamos patrimoniales y contratos civiles y comerciales.
+  description: >
+    Responsabilidad civil, daño y perjuicios, reclamos patrimoniales y contratos civiles y comerciales.
 
 - name: Derecho de Familia
-  description: Acompañamiento legal en asuntos familiares. Divorcios, régimen de alimentos, cuotas alimentarias, acuerdos familiares y resoluciones judiciales.
+  description: >
+    Divorcios, régimen de alimentos, cuotas alimentarias, acuerdos familiares, resoluciones judiciales y sucesiones.
 
 - name: Derecho Laboral
-  description: Defensa de los derechos laborales. Despidos y conflictos laborales, representación en reclamos, negociaciones laborales y asesoramiento a trabajadores y empresas.
+  description: >
+    Despidos y conflictos laborales, representación en reclamos, negociaciones laborales y asesoramiento a trabajadores y empresas.
 
 - name: Contratos
-  description: Elaboración de contratos personalizados, revisión legal preventiva y negociación contractual. Análisis previo de acuerdos para minimizar riesgos legales.
+  description: >
+    Elaboración de contratos personalizados, revisión legal preventiva y negociación contractual. Análisis previo de acuerdos para minimizar riesgos legales.
 
 - name: Derecho Previsional
-  description: Asesoramiento en jubilaciones y pensiones, reajustes y reclamos previsionales, reconocimiento de aportes y gestión de beneficios previsionales.
+  description: >
+    Asesoramiento en jubilaciones y pensiones, reajustes y reclamos previsionales, reconocimiento de aportes y gestión de beneficios previsionales.
 
 - name: Amparos de Salud
-  description: Acciones de amparo frente a negativas, demoras e incumplimientos de obras sociales y empresas de medicina prepaga. Medicamentos y tratamientos, certificado único de discapacidad (CUD), prótesis e insumos, internaciones y traslados.
+  description: >
+    Acciones de amparo frente a negativas, demoras e incumplimientos de obras sociales y empresas de medicina prepaga.
+    Medicamentos y tratamientos, certificado único de discapacidad (CUD), prótesis e insumos, internaciones y traslados.
