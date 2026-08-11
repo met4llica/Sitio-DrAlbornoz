@@ -1,6 +1,6 @@
 ---
 layout: index
-title: Inicio
+title: Inicio (v2)
 ---
 
 # Dr. Albornoz Diogo - Abogado
